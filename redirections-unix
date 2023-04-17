@@ -1,0 +1,18 @@
+Redirections in Unix
+Before discussing redirections, we need a detailed understanding of the different types of streams in UNIX. 
+
+Normally, UNIX commands take their input from Keyboard and display their output on the terminal. If the command results in error, then the error is also displayed on the terminal. These a called as standard streams in UNIX.
+
+Standard input stream: Keyboard
+Standard output stream: Terminal
+Standard error stream: Terminal
+
+
+These standard streams can be changed in UNIX i.r., you can manipulate UNIX to accespt input from a fie instead of keyboard o to store the output and error in a file instead of displaying it on the screen. This is what we call as redictions in UNIX.
+
+Redirections are done with the help of redirection operators in UNIX:
+
+Input redirection operator(<) or (0<)
+Output redirection operator(>) or (1>)
+Error redirection operator(2>)
+Redirections come in handy when you write automation scripts where inputs need to provided through file, outputs and errors need to be stored in a file.
