@@ -1,0 +1,61 @@
+Unix File System Hierarchy
+The Unix File System Hierarchy (FSH) explains the directory structure and the placement of directory's contents in a Unix system. A directory is the Unix equivalent for folders in Windows. Generally, a file system accounts for the arrangement of information in a system. Unix follows a hierarchical way for storing the information (tree-like), thus FSH. Some points to be noted regarding Unix filesystem are:
+
+i) Any number of filesystems can be attached to a Unix machine but there must always be one compulsory filesystem, which is the root filesystem (/).
+
+ii) All the other filesystems are attached to the root filesystem only. So, any file that you can possibly find in a Unix system will exist under /.
+
+iii) Everything in Unix is considered as a file. For example, a directory is a file that contains the list of names of files and sub-directories in it.
+
+
+
+In the root filesystem, there are some default directories that get created with the installation. Some of these directories contain the system files that is necessary for various crucial processes that take place during the booting of the machine. Some of them contains the configurational files. Let us examine some of the default directories and their significance below:
+
+/bin
+
+Contains the essential binary files for user commands
+
+/boot
+
+Files of the boot loader required for the booting process
+
+/dev
+
+Device files
+
+/etc
+
+Contains all the system specific configuration files
+
+/home
+
+Contains the home directories of all regular users
+
+/lib
+
+Contains shared library files
+
+/media
+
+Mount point used to mount removable media like CD, DVD etc.,
+
+/mnt
+
+Legacy mount point used to mount removable media
+
+/root
+
+Home directory of root user
+
+/sbin
+
+Contains system binary files
+
+/tmp
+
+Contains temporary files. Not advisable to store crucial files in this location.
+
+/var
+
+Contains variables files like logs, mails, etc.,
+
