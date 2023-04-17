@@ -1,0 +1,35 @@
+Features of Unix
+What makes the Unix operating system special? 
+How did it manage to face the challenges posed by its competitors and still be one of the most preferred operating systems for programmers around the world? 
+For starters, we can say Unix is simple, in all seriousness. Unix offers both CLI(Command Line Interface) and GUI(Graphical User Interface) to its users. 
+Unix has certain standard features that makes it unique and special. Some of them are listed below:
+
+i)  Multi-user: 
+Multiple users can login and use the system and share the resources in a Unix machine without compromising the security of one user from the other at the same time.
+
+ii) Multi-tasking: 
+Unix can handle multiple tasks at once while sharing the system resources fairly among them. 
+Along with managing the active process, it can also effectively handle multiple background processes as well.
+
+iii)Pipes: 
+Unix allows you to connect multiple small programs and create a complex program using pipes
+
+iv) Hierarchical File System: 
+Unix stores information in a hierarchical file system. This makes it easier to maintain files and folders and other information in the system effectively.
+We will learn more about the Unix file system in the upcoming resources.
+
+v)Security: 
+A vaild username and password is needed to access a Unix system.
+
+vi) Utilities:
+Users can perform various functions in a Unix machines instantly by using the utilities provided by Unix. 
+Create a file using ‘touch’, print a statement using ‘echo’ and what not.
+
+vii)  Portability: 
+Unix is written in a high-level machine language which makes it easily portable.
+
+viii) Redirections:
+Using the redirection features in Unix, one can modify the standard input, output, and error streams of Unix as per the need.
+
+ix) Sofware development tools: 
+Unix supports almost all software development tools.
