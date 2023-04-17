@@ -1,0 +1,17 @@
+File management commands
+As a Linux System Administrator, it is important for you to know your way around certain file management commands. These commands help us to effectively manage both files and directories in our Linux system. The following are some of the basic file management tasks that you may come across while working in a Linux system:
+
+1. Creating files/directories  (touch/mkdir) (mkdir -p )
+2. Listing files/directories (ls)
+3. Copying files/directories (cp)
+4. Moving files/directories   (mv)
+5. Removing files/directories (rm)
+Apart from learning how to perform the above tasks, you will also learn about the concepts of link files, find utility and referring files using shell metacharacters.
+
+
+mkdir -p /home/waltz/dir1/day1 
+dir1 will be created.
+-p option creates the parent directory if it is missing.
+
+
+
