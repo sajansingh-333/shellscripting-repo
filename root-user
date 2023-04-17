@@ -1,0 +1,10 @@
+The root user is the super user of the Unix system. It is the Unix equivalent for “Admin” user in Windows systems. There is little restriction on what the root user can do in the system. By default, it has permission to access al the commands and files in the Unix system. It is a special user account in Unix and has the User ID of 0. Some of the innumerous number of things root can do are:
+
+Create user accounts
+Access/read/write any files in the system
+Manage the system resource usage
+Install and remove software
+Modify system configurations
+and so on.
+
+Like every user in Unix requires a valid password to login to the system, root user also requires a password. The knowledge of this password is kept very confidential in order to avoid any system level changes being done by unauthorized users.
