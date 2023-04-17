@@ -1,0 +1,30 @@
+An operating system is the underlying software that acts as an interface between the user and the computer resources. An operating system has its own hardware and software components and a well-designed architecture. The architecture of an operating system is the overall design of its hardware and software components. Unix OS has a layered architecture.
+
+The components of the architecture are:
+
+i) Kernel: Kernel is the resource manager of the operating system. It is responsible for sharing system resources between multiple processes that are running in the system.
+
+ii) Shell: Shell is the interface between the user and the kernel. Unix offers many different types of shells like bourne shell, bourne again shell, C shell, T shell, K Shell, etc.,
+
+iii) Utilities: Users communicate to the kernel through the shell using the utilities. Unix provides many in-built utilities, and it is easier for users to create a utility by combining the existing ones.
+
+
+Volume structure in Unix
+In Unix file system, every physical hard disk is divided into one or more partitions. A partition has its own filesystem. Every filesystem contains the following blocks:
+
+ Boot block
+
+ Super block
+
+ Inode block
+
+ Data block
+
+
+Boot block: The boot block occupies the first few sectors of a filesystem. It contains the bootstrap program that is required to boot the operating system.
+
+Super block: The super block describes the filesystem’s state. It tells us the total size of the filesystem, block size, etc.,
+
+Inode block: Unix knows files in terms of their inodes. Files are mapped to their inodes(index nodes). Each file has its own inode number which helps Unix to find the inodes of the files.
+
+Data blocks: The data blocks contains the actual content of the files.
