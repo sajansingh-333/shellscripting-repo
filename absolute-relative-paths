@@ -1,0 +1,7 @@
+ There are two types of paths for a file in Unix: absolute and relative. Basically, an absolute path of a file is written from the beginning of the root filesystem i.e., “/” whereas a relative path to a file is relative to the present working directory. A relative path does not start with a “/”.
+
+ For example,
+
+i) /home/waltz/file1 is an absolute path (since it starts with “/”).
+
+ii) root/Desktop is a relative path.
